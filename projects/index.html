@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>projects | Ismail  Ouazzani Chahdi</title>
     <meta name="author" content="Ismail  Ouazzani Chahdi">
-    <meta name="description" content="A growing collection of your cool projects.">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -114,7 +115,7 @@
 
           <header class="post-header">
             <h1 class="post-title">projects</h1>
-            <p class="post-description">A growing collection of your cool projects.</p>
+            <p class="post-description"></p>
           </header>
 
           <article>
@@ -124,6 +125,36 @@
   <h2 class="category">Robotics</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/turtle-bot/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/12-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/12-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/12-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/12.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Delivery Robot</h2>
+          <p class="card-text">a project with a background image</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
   </div>
   <h2 class="category">Machine Learning</h2>
   <!-- Generate cards for each project -->

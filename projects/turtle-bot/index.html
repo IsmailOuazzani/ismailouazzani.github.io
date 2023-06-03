@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Delivery Robot | Ismail  Ouazzani Chahdi</title>
+    <meta name="author" content="Ismail  Ouazzani Chahdi">
+    <meta name="description" content="a project with a background image">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://ismailouazzani.github.io//projects/turtle-bot/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Ismail </span>Ouazzani Chahdi</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Delivery Robot</h1>
+            <p class="post-description">a project with a background image</p>
+          </header>
+
+          <article>
+            <h1 id="introduction">Introduction</h1>
+<p>We design the control to simulate a Mail Delivery Robot, as the final project of our robotics class.
+We are given a topological map of an office track, and enable a robot to stop at the instructed offices by implementing both Bayesian Localization and a PID controller.  The offices, numbered from 1 to 12 are unique but their color (sensor reading) is not. They are connected by a black line that the robot follows.</p>
+
+<div id="a" align="center">
+<img src="https://user-images.githubusercontent.com/74887266/223531741-035bf93e-006e-4a24-82b2-7580a2d9e9f0.PNG" width="30%" height="15%">
+  
+  <h5>Topological map</h5>
+</div>
+
+<h1 id="robot-platform">Robot Platform</h1>
+<p>We worked with a TurtleBot3 Waffle Pi equipped with the Pi Camera, pointed downward to examine
+the area underneath the robot. The camera is useful when mounted this way as it can be used for line
+following and floor color detection. The different sensors (Camera and motors) communicated with
+each other through a ROS infrastructure that was provided to us. We were provided with the code for perception and data extrapolation from the Pi camera.</p>
+
+<h1 id="solution-strategy">Solution Strategy</h1>
+<h2 id="line-following">Line following</h2>
+<p>We use the Pi camera to detect the current color the robot is on. If the color detected is black, we expect
+it to be on the line, otherwise, we assume the robot to be in an office.</p>
+
+<p>To follow the line we use the camera to determine whether the line is centered in the frame. If the
+line is not, we assume that the robot’s trajectory needs to be corrected and we use a PID controller
+to perform the correction. If properly tuned, we assume the PID controller to always maintain the
+robot centered on the line.</p>
+
+<p>If the color detected by the camera is not black, we assume the robot has reached an office. As
+the offices can be crossed by traveling forward in a straight manner, we decided to turn off the PID
+in these areas to avoid twitching. The offices are uniformly colored and span the whole field of view
+of the camera. It is therefore impossible for the robot to correct its trajectory given the image shown.
+Leaving the PID controller on when the robot is in an office, would imply uncontrollable path deviation.
+Turning off the PID controller in the offices, implies blindly moving forward for some time. If our
+PID controller is properly tuned, the robot will be centered on the black line before entering an office,
+and it will therefore find the black line again after exiting the office, as the black line doesn’t change
+direction within the office span.</p>
+
+<h2 id="robot-localization">Robot localization</h2>
+<p>For Robot localization we use Bayesian localization. Once we
+encounter an office we use the Bayesian model to keep track
+of the previous colors and predict the current office given the
+current color measured. We initialize the initial position to
+be uniformly probable across all the states since the robot can
+start from any location. We expect the model to converge to the
+right position after some offices have been visited. We therefore keep looping around the track until the model becomes
+confident enough in its current state.</p>
+
+<h2 id="comments-on-implementation">Comments on implementation</h2>
+<p>Our PID controller was tested in previous labs so we expect it
+to be straightforward to implement. We will first implement
+our Bayesian model on its own, and ensure its functioning by
+simulating a virtual track. This will allow us to debug it without having to test it on the robot. We expect color detection to
+be the harder part of the lab. This is the solution we identified.
+The color detected by the camera at any point is one of
+the following: black, blue, green, yellow or orange. We will
+therefore provide the RGB values of such colors to our robot.
+We calibrate the RGB values corresponding to the colors of the
+offices based on the mean of several observations taken form the
+track. When we run the robot we will then compare the colour measured by the robot to the provided
+ones, and determine which on it is the most similar to. We have different ideas to determine such
+similarity. We will converge on the best one in later sections. We will test</p>
+
+<ul>
+  <li>
+<strong>Norm of Differences:</strong> Take the difference between the measured value and one of the provided
+values, and calculate the norm of the final vector. The measured value will be the one with the
+smallest norm.</li>
+  <li>
+<strong>Cosine Similarity:</strong> Determine the angle between the measured rgb value and the provided
+values. The measured value will be the one with the smallest angle.</li>
+</ul>
+
+<h1 id="methods">Methods</h1>
+
+<h2 id="bayesian-localization">Bayesian Localization</h2>
+
+<p>We implemented the code by following the theory behind Bayesian localization. When testing it on
+the robot, we noticed that no matter the starting position, it took the same number of offices visited
+to confidently converge to the correct one. We therefore decided to implement a threshold: our robot
+would ”be certain” of its localization only after exploring three offices. This simplified the logic of our
+code while still reducing the risk of stopping at the wrong office.</p>
+
+<h2 id="improving-color-detection">Improving color detection</h2>
+<h3 id="hsv-format">HSV format</h3>
+<p>We noticed that the RGB values of the colors were very close to each other, and both methods listed
+above failed to determine similar colors consistently. We therefore switched to HSV values as they
+allowed more distinction between colors than RGB. Out of the options described earlier, we chose
+cosine similarity as it provided more accurate results.</p>
+
+<h3 id="robot-add-ons">Robot add-ons</h3>
+<p>We tried other approaches to reduce the error in color detection such as using a physical cone made
+of paper to have constant lighting, or using a portable light placed on top of the camera. Both of
+those approaches made color detection slightly worse. The failure of the cone to produce accurate
+measurements was likely caused by the fact that it appeared in the camera field of view and it distorted
+the values of the color detected. The portable light made the floor too shiny and negatively impacted
+the color detected as well.</p>
+<h3 id="color-filtering">Color Filtering</h3>
+<p>When entering a new office, we noticed a transient period during which multiple colors were detected
+one after the other. We therefore created a list (COLOR-LIST) containing the last K detected colors
+measured by the camera. When a new color was detected, we appended it to the end of the list and
+popped the first element. We only changed the current color variable, indicating the color the robot
+thought it was on, when all the colors in that list were the same. For example, if the robot was on
+the line and it is now starting to see an orange office. COLOR-LIST, if K = 5, will probably look like
+[”black, ”black, ”yellow”, ”orange”, ”orange”]. In this case current color is still ”black”. Only when
+COLOR-LIST = [”orange”, ”orange”,”orange”, ”orange”,”orange”] the current color will be equal to
+”orange”.
+Even after this modification, our robot struggled to detect the black line after specific colors. For
+example, after crossing a yellow office, our robot tent to confuse the line with blue. Therefore, we
+hard-coded the fact that after visiting an office, the next color measured had to be black, and we
+disregarded all other measurements.</p>
+<h3 id="pid-control-activation">PID Control Activation</h3>
+<p>The introduction of color filtering introduced some problems in our PID system as it was disengaging
+too late: when entering the office, the robot would twitch. To fix this issue, we stopped the PID
+controller when at least 27% of the values contained in COLOR-LIST were not black (we found this
+value through trial and error).
+Similarly, we wanted to start the PID at the right time after leaving an office so that if the robot
+deviated while moving across the office, it could be corrected before it was too late. We looked at the
+mean index of ”black” labels in the list. If the mean was toward the end of the list, it meant that we
+were getting new black measurements, i.e. that the robot was leaving the office, so we turned on the
+PID.</p>
+
+<h1 id="performance-analysis">Performance Analysis</h1>
+<p>Our Bayesian localization code successfully converged
+after 3 offices were visited and our robot was able to detect the office color with 100% accuracy. The
+following graphs show a sample robot prediction when it starts at office 9. The initial distribution
+is uniform. The robot measures orange then yellow. It converges to office 10 as {9,10} is the only
+sequence containing orange then yellow in the topological map (See introduction).</p>
+
+<p>| <img src="https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png" alt="baylocpred0"> | <img src="https://user-images.githubusercontent.com/74887266/223527502-4704b784-12f7-4df5-ba56-8db89112f31f.png" alt="bayloc0"> | <img src="https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png" alt="bayloc1"> |
+|———————————————————————————————————————–|——————————————————————————————————————-|——————————————————————————————————————-|</p>
+<div id="b" align="center">
+<h5>Bayesian Localization Model</h5>
+</div>
+
+<p>We only noticed some small problems with our PID controller and the color orange. On orange
+officies, the robot would not turn of PID in time in 40% of the cases. We did not have time to debug
+this last problem, although we hypothesize that something might be missing from our PID controller
+activation logic.</p>
+
+<h1 id="future-improvements">Future Improvements</h1>
+<p>In terms of hardware, a better camera (higher resolution) can improve both PID control and color
+detection. Fusing the information from multiple cameras could also decrease the error.
+Another improvement for color detection is the use a Decision-based tree model to assign a color
+based on the sensor measurement. It would be more resilient against changes in lighting and color
+shade. It would also give insight into why a color is selected instead of another one - by using metrics
+such as the SHAP values - which could help to build a better test setup.
+We noticed that color detection is sensitive to lighting conditions (such as a person moving above
+the robot), and abrupt changes can cause errors. To fix this issue, we could use a physical cone around
+the camera, combined with a portable light, and modify the algorithm that measures the color to only
+measure a subset of the entire image (where we don’t see the cone).</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>Altogether, this proof-of-concept demonstration was an opportunity for us to deepen our understanding of Bayesian localization while strengthening our skills in prototyping and debugging, all of which
+are essential to becoming a seasoned roboticist.
+A key idea that we learned is to build incrementally small components that fit together. We could
+have tried to build the entire project from the start, but having built and tested each element separately - the PID control, color detection, and bayesian localization - allowed us to pinpoint issues and
+make steady progress, which are important in terms of efficiency.</p>
+
+          </article>
+
+        </div>
+
+      
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Ismail  Ouazzani Chahdi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
