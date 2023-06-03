@@ -5,7 +5,11 @@ description: Design of the state estimation and controls of a turtle bot for a m
 img: assets/img/turtlebot.PNG
 importance: 1
 category: Robotics
+toc:
+  sidebar: left
 ---
+
+Github Repository: <a href="https://github.com/IsmailOuazzani/Delivery-Robot">Delivery-Robot</a>
 
 # Introduction
 We design the control to simulate a Mail Delivery Robot, as the final project of our robotics class.
