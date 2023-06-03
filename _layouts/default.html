@@ -3,6 +3,15 @@
 
   <!-- Head -->
   <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1YR9S13TQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q1YR9S13TQ');
+  </script>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
@@ -56,7 +65,7 @@
     {% include scripts/misc.html %}
     {% include scripts/badges.html %}
     {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
+    <!-- {% include scripts/analytics.html %} -->
     {% include scripts/progressBar.html %}
   </body>
 </html>
