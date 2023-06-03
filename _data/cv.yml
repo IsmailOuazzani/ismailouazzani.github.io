@@ -1,10 +1,18 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Ismail Ouazzani Chahdi
     - name: Languages
       value: English, French, Spanish, Arabic
+    - name: Programming
+      value: Python, C, MATLAB, Bash, Assembly
+    - name: Tools
+      value: Git, Linux, Docker, Simulink, ROS (Robot Operating System), Fusion360, Autodesk Eagle
+    - name: Libraries
+      value: PyTorch, NumPy, Pandas, Matplotlib, Sklearn
+    - name: Equipment
+      value:  Soldering, Machine shop power tools, Oscilloscope, Function Generator
+    
+
 
 - title: Education
   type: time_table
@@ -26,44 +34,16 @@
   contents:
     - title: Research Assistant
       institution: MIST Lab, Polytechnique Montréal
-      year: May 2022 - August 2022
+      year: May 2022 - Aug 2022
       description:
-        - Contributed to the development of an open-source drone for swarm robotics experiments
-        - Designed & 3D-printed structural components to accommodate a 45% increase in the drone’s weight
-        - Independently designed a screw support that reduces the time required for mounting a motor on the drone by 70%
-        -  Documented contributions and improved the troubleshooting guide on the open-source Github repository
+        During my internip, I contributed to the development of an open-source drone for swarm robotics experiments. I developed code on a Raspberry pi to enable obstacle detection through range sensors. Additionally, I designed and 3D-printed structural components to accommodate a substantial increase in the drone's weight. Finally, I documented my contributions and improved the troubleshooting guide for the project's open-source GitHub repository.
+
 
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://github.com/IsmailOuazzani/AtomicAI">Atomic AI</a>
+      year: Feb 2023 - Apr 2023
+      description: In this project, I led a team of four students in building an AI system that could play the chess variant <a href="https://www.chess.com/variants/atomic">Atomic Chess</a>. The heuristic I designed and trained was then integrated in a chess engine.  
+    - title: <a href="https://github.com/IsmailOuazzani/Delivery-Robot"> Delivery Turtlebot</a>
+      year: Sep 2022 - Dec 2022
