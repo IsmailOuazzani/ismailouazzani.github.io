@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Ismail !
 
-I'm a robotics engineering student at the University of Toronto, and I'm passionate about machine learning and robotics. 
+I'm a robotics engineering student at the University of Toronto, and I'm passionate about deep learning and robotics. 
