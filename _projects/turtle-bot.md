@@ -132,11 +132,10 @@ is uniform. The robot measures orange then yellow. It converges to office 10 as 
 sequence containing orange then yellow in the topological map (See introduction).
 
 
-| ![baylocpred0](https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png) | ![bayloc0](https://user-images.githubusercontent.com/74887266/223527502-4704b784-12f7-4df5-ba56-8db89112f31f.png) | ![bayloc1](https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png) |
-|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-<div id="b" align="center">
-<h5>Bayesian Localization Model</h5>
-</div>
+<img src="https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png" width="200">
+<img src="https://user-images.githubusercontent.com/74887266/223527502-4704b784-12f7-4df5-ba56-8db89112f31f.png" width="200">
+<img src="https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png" width="200">
+
 
 We only noticed some small problems with our PID controller and the color orange. On orange
 officies, the robot would not turn of PID in time in 40% of the cases. We did not have time to debug
