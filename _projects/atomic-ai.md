@@ -15,7 +15,7 @@ Our objective is to create an AI system that plays Atomic Chess. We focus on dev
 
 # Project Report
 
-<object data="https://github.com/IsmailOuazzani/AtomicAI/blob/main/AtomicAI_report.pdf" type="application/pdf" width="100%" height="500px">
+<object data="assets/pdf/atomic_report.pdf" type="application/pdf" width="100%" height="500px">
       <p>Unable to display PDF file. <a href="https://github.com/IsmailOuazzani/AtomicAI/blob/main/AtomicAI_report.pdf">Download</a> instead.</p>
     </object>
 
