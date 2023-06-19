@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Atomic Chess AI | Ismail  Ouazzani Chahdi</title>
     <meta name="author" content="Ismail  Ouazzani Chahdi">
-    <meta name="description" content="A deep learning chess AI capable of playing the chess varient Atomic.">
+    <meta name="description" content="Design and training of a deep learning chess AI capable of playing the chess varient Atomic.">
 
 
     <!-- Bootstrap & MDB -->
@@ -39,6 +39,9 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
+    
+    <!-- Sidebar Table of Contents -->
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
     
 
     <!-- Styles -->
@@ -117,16 +120,32 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- page.html -->
+        
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
+            <!-- page.html -->
         <div class="post">
 
           <header class="post-header">
             <!-- <h1 class="post-title">Atomic Chess AI</h1>
-            <p class="post-description">A deep learning chess AI capable of playing the chess varient Atomic.</p> -->
+            <p class="post-description">Design and training of a deep learning chess AI capable of playing the chess varient Atomic.</p> -->
           </header>
 
           <article>
-            <p>Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI" rel="external nofollow noopener" target="_blank">Atomic AI</a></p>
+            <h3 id="technologies-used">Technologies Used</h3>
+<ul>
+  <li>PyTorch</li>
+  <li>Numpy</li>
+  <li>Seaborn</li>
+  <li>Python-Chess</li>
+</ul>
+
+<p>Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI" rel="external nofollow noopener" target="_blank">Atomic AI</a></p>
 
 <h1 id="introduction">Introduction</h1>
 
@@ -143,6 +162,9 @@
 
         </div>
 
+          </div>
+        </div>
+        
       
     </div>
 
@@ -170,6 +192,9 @@
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script>
+  <!-- Sidebar Table of Contents -->
+  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
 
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
