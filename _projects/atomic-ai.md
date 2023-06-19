@@ -5,8 +5,6 @@ description: Design and training of a deep learning chess AI capable of playing 
 img: assets/img/atomic.png
 importance: 1
 category: Projects
-toc:
-  sidebar: left
 ---
 
 ### Technologies Used
@@ -19,7 +17,7 @@ Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI">Atomic A
 
 # Introduction
 
-Our objective is to create an AI system that plays Atomic Chess. We focus on developing a deep neural network model with a heuristic function. This function evaluates the strength of a chess board position for "white" and outputs a value between 0 and 1. Values closer to 1 indicate stronger positions for white, while values closer to 0 indicate stronger positions for black. We integrate this function with a search-based chess engine to enable the AI to play against humans and other AIs. Check out our GitHub for more information. Deep learning is a suitable approach for this problem due to the volatile and distant nature of determining a position's strength. By training our model on large datasets of games played by skilled players, we aim to capture the essential factors that predict game outcomes. Deep learning has proven effective in both traditional chess and the crazyhouse variant.
+The focus of this project was to create an AI system capable of playing Atomic Chess. The heuristic of the AI, that measures the strength of a move, is developped using a deep neural network. This function is then integrated with a search-based chess engine to enable the AI to play against humans and other AIs. By training the model on large datasets of games played by skilled players, the heuristic can capture the essential factors that predict game outcomes. 
 
 # Project Report
 

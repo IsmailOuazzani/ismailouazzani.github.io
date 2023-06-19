@@ -5,8 +5,6 @@ description: Design of the state estimation and controls of a turtle bot for a m
 img: assets/img/turtlebot.PNG
 importance: 1
 category: Projects
-toc:
-  sidebar: left
 ---
 
 ### Technologies Used
@@ -29,8 +27,7 @@ We are given a topological map of an office track, and enable a robot to stop at
   <h5>Topological map</h5>
 </div>
 
-<iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="100%" allow="autoplay"></iframe>
-
+<iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Robot Platform
 We worked with a TurtleBot3 Waffle Pi equipped with the Pi Camera, pointed downward to examine
@@ -40,7 +37,7 @@ each other through a ROS infrastructure that was provided to us. We were provide
 
 <div id="a" align="center">
 <img src="https://www.smartrobotworks.com/images/Platform/TurtleBot3/TurtleBot3_WafflePi.png"  width="30%" height="15%">
-
+</a>
 
 # Solution Strategy
 ## Line following
@@ -152,7 +149,9 @@ sequence containing orange then yellow in the topological map (See introduction)
 
 
 <img src="https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png" width="200">
+<br>
 <img src="https://user-images.githubusercontent.com/74887266/223527502-4704b784-12f7-4df5-ba56-8db89112f31f.png" width="200">
+<br>
 <img src="https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png" width="200">
 
 
