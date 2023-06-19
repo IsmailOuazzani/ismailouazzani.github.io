@@ -40,9 +40,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
-    <!-- Sidebar Table of Contents -->
-    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
-    
 
     <!-- Styles -->
     
@@ -92,9 +89,6 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -120,15 +114,7 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        
-        <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
-            <!-- page.html -->
+        <!-- page.html -->
         <div class="post">
 
           <header class="post-header">
@@ -149,7 +135,7 @@
 
 <h1 id="introduction">Introduction</h1>
 
-<p>Our objective is to create an AI system that plays Atomic Chess. We focus on developing a deep neural network model with a heuristic function. This function evaluates the strength of a chess board position for “white” and outputs a value between 0 and 1. Values closer to 1 indicate stronger positions for white, while values closer to 0 indicate stronger positions for black. We integrate this function with a search-based chess engine to enable the AI to play against humans and other AIs. Check out our GitHub for more information. Deep learning is a suitable approach for this problem due to the volatile and distant nature of determining a position’s strength. By training our model on large datasets of games played by skilled players, we aim to capture the essential factors that predict game outcomes. Deep learning has proven effective in both traditional chess and the crazyhouse variant.</p>
+<p>The focus of this project was to create an AI system capable of playing Atomic Chess. The heuristic of the AI, that measures the strength of a move, is developped using a deep neural network. This function is then integrated with a search-based chess engine to enable the AI to play against humans and other AIs. By training the model on large datasets of games played by skilled players, the heuristic can capture the essential factors that predict game outcomes.</p>
 
 <h1 id="project-report">Project Report</h1>
 
@@ -162,9 +148,6 @@
 
         </div>
 
-          </div>
-        </div>
-        
       
     </div>
 
@@ -192,9 +175,6 @@
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script>
-  <!-- Sidebar Table of Contents -->
-  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-
 
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
