@@ -4,7 +4,7 @@ title: Delivery Robot
 description: Design of the state estimation and controls of a turtle bot for a mail delivery simulation.
 img: assets/img/turtlebot.PNG
 importance: 1
-category: Robotics
+category: Projects
 toc:
   sidebar: left
 ---

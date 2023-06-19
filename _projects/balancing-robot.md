@@ -4,7 +4,7 @@ title: Balancing Robot
 description: A 3-wheeled robot capable of balancing on a basketball.
 img: assets/img/balancing.png
 importance: 2
-category: Robotics
+category: Projects
 ---
 
 

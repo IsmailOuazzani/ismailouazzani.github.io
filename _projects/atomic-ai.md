@@ -4,7 +4,7 @@ title: Atomic Chess AI
 description: A deep learning chess AI capable of playing the chess varient Atomic.
 img: assets/img/atomic.png
 importance: 1
-category: Machine Learning
+category: Projects
 ---
 
 Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI">Atomic AI</a>
