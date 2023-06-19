@@ -37,7 +37,7 @@ each other through a ROS infrastructure that was provided to us. We were provide
 
 <div id="a" align="center">
 <img src="https://www.smartrobotworks.com/images/Platform/TurtleBot3/TurtleBot3_WafflePi.png"  width="30%" height="15%">
-</a>
+</div>
 
 # Solution Strategy
 ## Line following
