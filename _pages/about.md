@@ -21,3 +21,4 @@ social: true  # includes social icons at the bottom of the page
 Hi, I'm Ismail !
 
 I'm a robotics engineering student at the University of Toronto, and I'm passionate about deep learning and robotics. 
+<!--  -->
