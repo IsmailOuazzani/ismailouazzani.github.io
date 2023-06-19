@@ -9,6 +9,14 @@ toc:
   sidebar: left
 ---
 
+### Technologies Used
+- ROS
+- Python
+- PID Controller
+- Bayesian Localization
+- Raspberry Pi
+
+
 Github Repository: <a href="https://github.com/IsmailOuazzani/Delivery-Robot">Delivery-Robot</a>
 
 # Introduction
@@ -21,11 +29,18 @@ We are given a topological map of an office track, and enable a robot to stop at
   <h5>Topological map</h5>
 </div>
 
+<iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="100%" allow="autoplay"></iframe>
+
+
 # Robot Platform
 We worked with a TurtleBot3 Waffle Pi equipped with the Pi Camera, pointed downward to examine
 the area underneath the robot. The camera is useful when mounted this way as it can be used for line
 following and floor color detection. The different sensors (Camera and motors) communicated with
 each other through a ROS infrastructure that was provided to us. We were provided with the code for perception and data extrapolation from the Pi camera.
+
+<div id="a" align="center">
+<img src="https://www.smartrobotworks.com/images/Platform/TurtleBot3/TurtleBot3_WafflePi.png"  width="30%" height="15%">
+
 
 # Solution Strategy
 ## Line following
