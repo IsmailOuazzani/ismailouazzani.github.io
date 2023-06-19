@@ -21,5 +21,3 @@ social: true  # includes social icons at the bottom of the page
 Hi, I'm Ismail !
 
 I'm a robotics engineering student at the University of Toronto, and I'm passionate about deep learning and robotics. 
-
-I am currently searching for Co-op positions in industry for September 2023. If you know of any interesting opportunities or would like to have a conversation over coffee, I'd love to connect. 
