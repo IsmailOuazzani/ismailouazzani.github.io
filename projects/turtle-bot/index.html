@@ -139,10 +139,19 @@
 We are given a topological map of an office track, and enable a robot to stop at the instructed offices by implementing both Bayesian Localization and a PID controller.  The offices, numbered from 1 to 12 are unique but their color (sensor reading) is not. They are connected by a black line that the robot follows.</p>
 
 <div id="a" align="center">
-<img src="https://user-images.githubusercontent.com/74887266/223531741-035bf93e-006e-4a24-82b2-7580a2d9e9f0.PNG" width="40%" height="15%">
+<img src="https://user-images.githubusercontent.com/74887266/223531741-035bf93e-006e-4a24-82b2-7580a2d9e9f0.PNG" width="30%" height="15%">
   
   <h5>Topological map</h5>
 </div>
+
+<h2 id="personal-contributions">Personal Contributions</h2>
+<ul>
+  <li>Design of the Bayesian Localization algorithm</li>
+  <li>Design and tuning of the PID controller</li>
+  <li>Debugging and integration of the different components</li>
+</ul>
+
+<h1 id="video-demonstration">Video Demonstration</h1>
 
 <div id="b" align="center">
 <iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="640" height="360" allow="autoplay" align="center"></iframe>
@@ -154,7 +163,7 @@ the area underneath the robot. The camera is useful when mounted this way as it 
 following and floor color detection. The different sensors (Camera and motors) communicated with
 each other through a ROS infrastructure that was provided to us. We were provided with the code for perception and data extrapolation from the Pi camera.</p>
 
-<div id="a" align="center">
+<div id="c" align="center">
 <img src="https://www.smartrobotworks.com/images/Platform/TurtleBot3/TurtleBot3_WafflePi.png" width="30%" height="15%">
 </div>
 
@@ -269,11 +278,13 @@ following graphs show a sample robot prediction when it starts at office 9. The 
 is uniform. The robot measures orange then yellow. It converges to office 10 as {9,10} is the only
 sequence containing orange then yellow in the topological map (See introduction).</p>
 
-<p><img src="https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png" width="200">
+<div id="res" align="center">
+<img src="https://user-images.githubusercontent.com/74887266/223527480-1ce1b6f6-561b-44bc-83c3-3acbec4129c3.png" width="200">
 <br>
 <img src="https://user-images.githubusercontent.com/74887266/223527502-4704b784-12f7-4df5-ba56-8db89112f31f.png" width="200">
 <br>
-<img src="https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png" width="200"></p>
+<img src="https://user-images.githubusercontent.com/74887266/223527515-79d90084-4b5d-4975-b3c5-7b148af6d7ad.png" width="200">
+</div>
 
 <p>We only noticed some small problems with our PID controller and the color orange. On orange
 officies, the robot would not turn of PID in time in 40% of the cases. We did not have time to debug
