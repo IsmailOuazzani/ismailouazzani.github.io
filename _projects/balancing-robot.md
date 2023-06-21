@@ -15,7 +15,12 @@ category: Projects
 
 # Introduction
 
-The project we have chosen to carry out consists of an electro-mechanical mechanism that is placed on the top of a ball which regulates itself to remain balanced on the top of the ball despite disturbances. This robot resting on the ball consists of three motors positioned in a polyhedron manner in which the actuators control the maneuvering of the robot with respect to the ball. While the ball is in motion, to ensure the mechanism remains balanced on top, the actuators will be activated to counteract the ball’s movement. An Arduino Mega is used to calculate the necessary control responses bawsed on the feedback from the main sensor, namely the Inertial Measuring Unit (IMU). The actuators will be instructed to move accordingly by the Arduino board.
+We built a robot capable of balancing on a basktetball despite small disturbances. This robot resting on the ball consists of three motors positioned in a polyhedron manner in which the actuators control the maneuvering of the robot with respect to the ball. While the ball is in motion, to ensure the mechanism remains balanced on top, the actuators will be activated to counteract the ball’s movement. An Arduino Mega is used to calculate the necessary control responses bawsed on the feedback from the main sensor, namely the Inertial Measuring Unit (IMU). The actuators will be instructed to move accordingly by the Arduino board.
+
+## Personal Contributions	
+- Literature review to find equations of motion of the system
+- Implementation of the control system
+- Tuning of the P controller
 
 # Video
 
