@@ -19,7 +19,9 @@ The project we have chosen to carry out consists of an electro-mechanical mechan
 
 # Video
 
+<div id="a" align="center">
 <iframe src="https://drive.google.com/file/d/1-XLWjoTJ7TukqudAsLmh2ffgU7wl32YO/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
 
 # Project Report
 

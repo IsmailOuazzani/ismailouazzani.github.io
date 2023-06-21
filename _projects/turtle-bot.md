@@ -27,7 +27,10 @@ We are given a topological map of an office track, and enable a robot to stop at
   <h5>Topological map</h5>
 </div>
 
-<iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="500" height="480" allow="autoplay" align="center"></iframe>
+<div id="b" align="center">
+<iframe src="https://drive.google.com/file/d/18__z6zrBNwR1Fe-d58yG_F8b9K7sWxUA/preview" width="640" height="360" allow="autoplay" align="center"></iframe>
+</div>
+
 
 # Robot Platform
 We worked with a TurtleBot3 Waffle Pi equipped with the Pi Camera, pointed downward to examine
