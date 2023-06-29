@@ -19,10 +19,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | Ismail  Ouazzani Chahdi</title>
+    <title>Part-of-Speech Tagger | Ismail  Ouazzani Chahdi</title>
     <meta name="author" content="Ismail  Ouazzani Chahdi">
-    <meta name="description" content="Personal website.
-">
+    <meta name="description" content="Natural Language Processing, Part-of-Speech Tagging, Hidden Markov Models">
 
 
     <!-- Bootstrap & MDB -->
@@ -47,7 +46,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ismailouazzani.github.io//projects/">
+    <link rel="canonical" href="https://ismailouazzani.github.io//projects/POS/">
 
     <!-- Dark Mode -->
     
@@ -87,8 +86,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -119,139 +118,34 @@
         <div class="post">
 
           <header class="post-header">
-            <!-- <h1 class="post-title">projects</h1>
-            <p class="post-description"></p> -->
+            <!-- <h1 class="post-title">Part-of-Speech Tagger</h1>
+            <p class="post-description">Natural Language Processing, Part-of-Speech Tagging, Hidden Markov Models</p> -->
           </header>
 
           <article>
-            <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">Projects</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/atomic-ai/">
-      <div class="card hoverable">
-<figure>
+            <h2 id="technologies-used">Technologies Used</h2>
+<ul>
+  <li>Python</li>
+  <li>Viterbi Algorithm</li>
+  <li>Bayesian Inference</li>
+  <li>Hidden Markov Models</li>
+</ul>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/atomic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/atomic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/atomic-1400.webp"></source>
-    
+<!-- Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI">Atomic AI</a> -->
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/atomic.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<h1 id="introduction">Introduction</h1>
 
-  </picture>
+<p>The focus of this project is to predict the categories of words in a sentence: the <a href="https://en.wikipedia.org/wiki/Part_of_speech" rel="external nofollow noopener" target="_blank">Part of Speech (POS)</a>. To do so, we use a hidden markov model, which contains the probabilities that each word belongs to each of the categories. I then use the Viterbi algorithm to classify the words, as it allows me to compute the sequence of POS tags that has the highest joint probability efficiently - that is the most likely.</p>
 
-</figure>
+<h2 id="personal-contributions">Personal Contributions</h2>
+<ul>
+  <li>Implementation of a Data Preprocessing script to extract the words and their POS tags</li>
+  <li>Training of the HMM model using dataset</li>
+  <li>Implementation of the Viterbi algorithm to classify the words</li>
+  <li>Implemented all functions with Numpy arrays to improve performance</li>
+  <li>Implementation of a script to evaluate the accuracy of the model</li>
+</ul>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Atomic Chess AI</h2>
-          <p class="card-text">Deep Learning, Game Search, Chess</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/turtle-bot/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/turtlebot.PNG-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/turtlebot.PNG-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/turtlebot.PNG-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/turtlebot.PNG" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Delivery Robot</h2>
-          <p class="card-text">Design of the state estimation and controls of a turtle bot for a mail delivery simulation.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/balancing-robot/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/balancing-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/balancing-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/balancing-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/balancing.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Balancing Robot</h2>
-          <p class="card-text">Control Systems, Robotics, Arduino</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/POS/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/POS-Tagging-800x400-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/POS-Tagging-800x400-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/POS-Tagging-800x400-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/POS-Tagging-800x400.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Part-of-Speech Tagger</h2>
-          <p class="card-text">Natural Language Processing, Part-of-Speech Tagging, Hidden Markov Models</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
 
           </article>
 
