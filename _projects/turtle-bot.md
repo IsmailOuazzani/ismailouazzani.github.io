@@ -7,7 +7,7 @@ importance: 1
 category: Projects
 ---
 
-### Technologies Used
+## Technologies Used
 - ROS
 - Python
 - PID Controller

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Balancing Robot
-description: Implementing the controls of a 3-wheeled robot capable of balancing on a basketball.
+description: Control Systems, Robotics, Arduino
 img: assets/img/balancing.png
 importance: 2
 category: Projects
 ---
 
-### Technologies Used
+## Technologies Used
 - Arduino
 - C++
 - P Control

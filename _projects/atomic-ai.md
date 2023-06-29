@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Atomic Chess AI
-description: Design and training of a deep learning chess AI capable of playing the chess varient Atomic.
+description: Deep Learning, Game Search, Chess
 img: assets/img/atomic.png
 importance: 1
 category: Projects
 ---
 
-### Technologies Used
+## Technologies Used
 - PyTorch
 - Numpy
 - Seaborn
@@ -17,7 +17,7 @@ Github Repository: <a href="https://github.com/IsmailOuazzani/AtomicAI">Atomic A
 
 # Introduction
 
-The focus of this project was to create an AI system capable of playing Atomic Chess. The heuristic of the AI, that measures the strength of a move, is developped using a deep neural network. We train the heuristic using This function is then integrated with a search-based chess engine to enable the AI to play against humans and other AIs. By training the model on large datasets of games played by skilled players, the heuristic can capture the essential factors that predict game outcomes. 
+The focus of this project was to create an AI system capable of playing Atomic Chess. We use a convolutional neural network to create the function which measures the strength of a move. TThis function is then integrated with a search-based chess engine to enable the AI to play against humans and other AIs. By training the model on large datasets of games played by skilled players, the heuristic can capture the essential factors that predict game outcomes. 
 
 ## Personal Contributions
 - Literrature review of the state of the art in chess AI
